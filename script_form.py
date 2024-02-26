@@ -70,3 +70,4 @@ driver.find_element(By.XPATH, '//*[@id="data_compliance"]/div/label').click()
 time.sleep(2)
 driver.get_screenshot_as_file("sc/screenshot.png")
 driver.find_element(By.ID, 'submit_buttons').click()
+#
